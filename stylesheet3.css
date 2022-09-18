@@ -1,0 +1,89 @@
+button {
+    left: 46%;
+    font-family: sans-serif;
+    font-size: 15px;
+    align-items: center;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+button:hover {
+    opacity:0.9;
+}
+
+title {
+    font-family: Garamond;
+    font-size: 30px;
+    color: black;
+}
+
+header {
+    background-image: url("./image/coba.jpg");
+    background-size: cover;
+    height: 700px;
+    padding: 50px 50px;
+}
+
+header h1 {
+    font-size: 40px;
+    color:  deeppink;
+    text-align: center;
+    letter-spacing: 3px;
+    heigh: 20px;
+    padding-top: 30px
+    width:20px;
+    animation-name: one;
+    animation-duration: 10s;
+    position: relative;
+}
+
+@keyframes one {
+    0% {color : royalblue; right: 0px; left: 0px}
+    25% {color: purple; left: 200px; right: 0px;}
+    50% {color: darkgreen; right: 200px; left: 200px;}
+    75% {color: orangered; left:  0px; right: 200px;}
+    100% {color: deeppink; right: 200px; left: 200px;}
+}
+
+header h2 {
+    font-family: Brush Script MT;
+    font-size: 70px;
+    color: darkgoldenrod;
+    letter-spacing: 2px;
+    width: 100%;
+    animation-name: two;
+    animation-duration: 10s;
+    line-height: 0.5px;
+    text-align: center;
+}
+
+@keyframes two {
+    0% {color : deeppink; right: 0px; left: 0px;}
+    25% {color: orangered; right: 200px; left: 0px;}
+    50% {color: darkgreen; right: 200px; left: 200px;}
+    75% {color: purple; right: 0px; left: 200px;}
+    100% {color: royalblue; right: 200px; left: 200px;}
+}
+
+header p  {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 5px;
+}
+
+header h3 {
+    font-size: 15px;
+    color: blueviolet;
+    text-align: center;
+}
+
+img {
+    align-items: center;
+    position: relative;
+}
