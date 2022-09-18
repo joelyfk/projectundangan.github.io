@@ -1,0 +1,294 @@
+title {
+    font-family: Garamond;
+    font-size: 30px;
+    color: black;
+}
+
+header {
+    background-image: url("./image/coba.jpg");
+    background-size: cover;
+    height: 280px;
+    padding: 50px 50px;
+}
+
+header h1 {
+    font-size: 40px;
+    color:  deeppink;
+    text-align: center;
+    letter-spacing: 3px;
+    heigh: 20px;
+    padding-top: 30px
+    width:20px;
+    animation-name: one;
+    animation-duration: 10s;
+    position: relative;
+}
+
+@keyframes one {
+    0% {color : royalblue; right: 0px; left: 0px}
+    25% {color: purple; left: 200px; right: 0px;}
+    50% {color: darkgreen; right: 200px; left: 200px;}
+    75% {color: orangered; left:  0px; right: 200px;}
+    100% {color: deeppink; right: 200px; left: 200px;}
+}
+
+header h2 {
+    font-family: Brush Script MT;
+    font-size: 70px;
+    color: darkgoldenrod;
+    letter-spacing: 2px;
+    width: 100%;
+    animation-name: two;
+    animation-duration: 10s;
+    line-height: 0.5px;
+    text-align: center;
+}
+
+@keyframes two {
+    0% {color : deeppink; right: 0px; left: 0px;}
+    25% {color: orangered; right: 200px; left: 0px;}
+    50% {color: darkgreen; right: 200px; left: 200px;}
+    75% {color: purple; right: 0px; left: 200px;}
+    100% {color: royalblue; right: 200px; left: 200px;}
+}
+
+header p  {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 5px;
+}
+
+header h3 {
+    font-size: 15px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.main {
+	background-image: url("./image/coba.jpg");
+	background-size: cover;
+	height: 510px;
+    padding:  50px 50px;
+}
+
+.main h1 {
+    font-family: Garamond;
+    font-size: 20px;
+    color: black;
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 25px;
+}
+
+.main h2 {
+ 	font-family: Garamond;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 15px;
+}
+
+.main h3 {
+	font-family: Brush Script MT;
+    font-size: 60px;
+    color: darkgoldenrod;
+    text-align: center;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+.main p {
+	font-family: Garamond;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+.main h4 {
+    font-family: Garamond;
+    font-size: 15px;
+    color: blueviolet;
+    text-align: center;
+}
+
+/* Part kak Shofa */
+.container {
+    font-family: Garamond;
+    color: rgb(9, 7, 5);
+    background-image: url("./image/coba.jpg");
+    text-align: center;
+    background-size: cover;
+	height: 920px;
+    padding-top: 50px;
+}
+
+.container h1 {
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Garamond;
+    padding-bottom: 10px;
+}
+
+.container h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Garamond;
+    line-height: 5px;
+}
+
+.container h3 {
+    line-height: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Brush Script MT;
+    color: darkgoldenrod;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.container h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Garamond;
+    line-height: 5px;
+}   
+    
+.container h5 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Garamond;
+}
+
+.container h6 {
+    font-size: 20px;
+    line-height: 2px;
+    text-align: center;
+    font-family: Garamond;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.protokol-wrapper {
+    background-image: url("./image/coba.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+    padding: 50px 50px;
+} 
+
+.protokol-wrapper h1 {
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: Garamond;
+}
+
+.protokol-icon img {
+    width: 850px;
+    height: 300px;
+    border: 4px solid #575D63;
+    position: relative;
+}
+
+/* Part kak Nuu */
+.Gallery {
+    font-family: Garamond;
+    color: black;
+    background-image: url("./image/coba.jpg");
+    text-align: center;
+    background-size: cover;
+    height: 530px;
+    padding-top: 50px;
+}
+
+.Gallery h1 {
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Garamond;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.foto img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    border: 4px solid #575D63;
+    width: 200px;
+    height: 400px;
+}
+
+.location-wrapper {
+    font-family: Garamond;
+    color: black;
+    background-image: url("./image/coba.jpg");
+    text-align: center;
+    background-size: cover;
+    height: 430px;
+    padding-top: 50px;
+}
+
+.location-wrapper h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    fon0t-family: Garamond;
+}
+
+.location-wrapper iframe {
+    width: 850px;
+    height: 300px;
+    border: 4px solid #575D63;
+    position: relative;
+}
+
+.kado-digital {
+    background-image: url("./image/coba.jpg");
+    background-size: cover;
+    height: 200px;
+    padding:  50px 50px;
+}
+
+.kado-digital h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Garamond;
+    line-height: 3px;
+}
+
+button {
+    left: 45%;
+    font-family: sans-serif;
+    font-size: 15px;
+    align-items: center;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+button:hover {
+    opacity:0.9;
+}
